@@ -1,0 +1,599 @@
+@import "bootstrap";
+
+* {
+  font-family: "Montserrat", serif;
+  cursor: default;
+}
+
+li>a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.custom-title {
+  font-size: 90px;
+  font-weight: bold;
+}
+
+a {
+  cursor: pointer;
+  color: black;
+}
+
+a>i {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+
+:root {
+  --primary-color: #ebdccd;
+  --secondary-color: #ae92c1;
+  --info-color: #dc6510;
+  --danger-color: #541360;
+  --warning-color: #fbf4f4;
+}
+
+.bg-primary {
+  background-color: var(--primary-color) !important;
+}
+
+.bg-secondary {
+  background-color: var(--secondary-color) !important;
+}
+
+.bg-warning {
+  background-color: var(--warning-color) !important;
+}
+
+.text-danger {
+  color: var(--danger-color) !important;
+}
+
+.text-secondary {
+  color: var(--secondary-color) !important;
+}
+
+.text-info {
+  color: var(--info-color) !important;
+}
+
+
+.navbar-custom {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  width: 100%;
+  background-image: url(/images/logo_senza_sfondo.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-position-y: -60px; */
+  height: 100dvh;
+  overflow: hidden;
+
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.text-custom {
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+}
+
+.separator {
+  height: 3px;
+  background-color: #ae92c1;
+  width: 55%;
+  border-radius: 50px;
+  margin-inline: auto;
+}
+
+.nav-hover {
+  transition: transform 0.2s ease;
+}
+
+.nav-hover:hover {
+  transform: scale(1.2);
+  transition: 0.2s ease;
+  border-radius: 8px;
+}
+
+.nav-hover:hover a {
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 1px rgb(128, 128, 128);
+}
+
+.banner-bg {
+  width: 100%;
+  overflow: hidden;
+  background-color: #5e2e66;
+  padding: 20px 0;
+  position: relative;
+}
+
+.banner-line {
+  display: flex;
+  align-items: center;
+  animation: scrollBanner 8s linear infinite;
+  width:max-content;
+  will-change: transform;
+  white-space: nowrap;
+}
+
+.banner-line-img{
+  display: flex;
+  align-items: center;
+  width:max-content;
+  will-change: transform;
+  white-space: nowrap;
+  animation: scrollBanner 15s linear infinite;
+  background-color: #ffffff;
+  gap: 20px;
+}
+.banner-group {
+  display: flex;
+  gap: 80px;
+  min-width: 100vw;
+  padding-right: 20px; 
+}
+
+.banner-sponsor{
+  display: inline-block;
+  flex-shrink: 0;
+  color: aliceblue;
+}
+
+.banner-sponsor h4 {
+  margin-bottom: 0;
+  flex: 0 0 auto;
+}
+
+@keyframes scrollBanner {
+  0% {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.carousel-item {
+  height: 400px;
+  object-fit: contain;
+}
+
+.img-detail {
+    object-fit: contain;
+    height: 400px;
+    width: 25%;
+  }
+
+.carousel-indicators [data-bs-target] {
+  background-color:#74548b;
+}
+.carousel-indicators .active {
+  background-color: #5e2e66;
+}
+
+.panel {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50px;
+  position: sticky;
+  scroll-margin-top: 0;
+}
+
+.panel-1 {
+  height: 60vh;
+  flex-direction: column;
+  background-color: #fbf4f4;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.panel-2 {
+  background-color: #e98b47;
+  z-index: 2;
+}
+
+.panel-3 {
+  background-color: #74548b;
+  z-index: 3;
+}
+
+.panel-4 {
+  background-color: #5e2e66;
+  z-index: 4;
+  font-size: 40px;
+}
+
+.btn{
+  border-radius: 50px;
+  transition: trasform 0.3s ease;
+  color: #74548b;
+  font-weight:500;
+}
+
+.btn:hover{
+  box-shadow: 2px 2px 2px black;
+  transform: scale(1.2);
+  transition: 0.3s ease-out;
+  color: #541360;
+  text-decoration: underline;
+}
+/* City name + bg-images */
+.img-test-1{
+  background-image: url(/images/scritta/circolo.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bolder;
+  text-shadow: 4px 3px 1px black;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  margin-right:-10px;
+}
+
+.img-test-2{
+  background-image: url(/images/scritta/colle-disegno.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bolder;
+  text-shadow: 4px 3px 1px black;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 150px;
+  margin-right:-10px;
+}
+
+.img-test-3{
+  background-image: url(/images/scritta/castello.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bolder;
+  text-shadow: 4px 3px 1px black;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 150px;
+  margin-right:-10px;
+}
+
+.img-test-4{
+  background-image: url(/images/scritta/portacastello.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bolder;
+  text-shadow: 4px 3px 1px black;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 150px;
+  margin-right:-10px;
+}
+
+.img-test-5{
+  background-image: url(/images/scritta/piazza-piccola.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bolder;
+  text-shadow: 4px 3px 1px black;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 150px;
+  margin-right:-10px;
+}
+
+.img-test-6{
+  background-image: url(/images/scritta/municipio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bolder;
+  text-shadow: 4px 3px 1px black;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 150px;
+  margin-right:-10px;
+}
+
+.img-test-7{
+  background-image: url(/images/scritta/La_Bella_Addormentata_Gran_Sasso_d_Italia_02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bolder;
+  text-shadow: 4px 3px 1px black;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 150px;
+  margin-right:-10px;
+}
+
+.img-test-8{
+  background-image: url(/images/scritta/fabio.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bolder;
+  text-shadow: 4px 3px 1px black;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 150px;
+  margin-right:-10px;
+}
+
+.img-test-9{
+  background-image: url(/images/scritta/scale-castello.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bolder;
+  text-shadow: 4px 3px 1px black;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 150px;
+  margin-right:-10px;
+}
+
+.img-test-10{
+  background-image: url(/images/scritta/montagna.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bolder;
+  text-shadow: 4px 3px 1px black;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 150px;
+  margin-right:-10px;
+}
+
+.img-test-11{
+  background-image: url(/images/scritta/scale-castello.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bolder;
+  text-shadow: 4px 3px 1px black;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 150px;
+  margin-right:-10px;
+}
+
+.img-test-12{
+  background-image: url(/images/scritta/vista-di-collecorvino.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bolder;
+  text-shadow: 4px 3px 1px black;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 150px;
+}
+
+/* Animations */
+.fadeUp {
+  animation: fadeUp 1.3s ease;
+}
+
+.fadeDown {
+  animation: fadeDown 1.3s ease;
+}
+
+.fadeLeft {
+  animation: fadeLeft 2s;
+}
+
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Da 0 a SM */
+@media (max-width: 575px) {
+
+  .custom-title {
+    font-size: 38px;
+  }
+
+  .navbar-custom {
+    gap: 1;
+    font-size: small;
+  }
+
+  .text-custom {
+    font-size: 32px;
+  }
+
+  .text-custom2 {
+    font-size: 15px;
+  }
+
+  .subtitle {
+    font-size: 20px !important;
+  }
+
+  .hero {
+    width: 100%;
+    background-size: cover;
+    height: 55vh;
+  }
+
+  .customImg {
+    width: 250px;
+    height: 250px;
+  }
+
+  .img-detail {
+    object-fit: contain;
+    width: 220px;
+    
+    height: 300px;
+  }
+
+  .panel-1{
+    height: 50vh;
+  }
+}
+
+/* Da SM in poi */
+@media (min-width: 575px) {
+
+  .navbar-custom {
+    font-size: 30px;
+  }
+
+  .img-detail {
+    object-fit: contain;
+    height: 300px;
+    width: 25%;
+  }
+
+}
+
+/* Da SM a MD */
+@media (min-width: 576px) and (max-width: 768px) {
+  .custom-title{
+    font-size: 38px;
+  }
+
+  .hero {
+    width: 100%;
+    background-size: cover;
+    height: 60vh;
+  }
+
+  .img-detail {
+    object-fit: contain;
+    height: 400px;
+    width: 25%;
+  }
+
+  .panel-1{
+    height: 50vh;
+  }
+}
+
+/* Da MD a LG */
+@media (min-width: 768px) and (max-width: 1100px) {
+  .custom-title{
+    font-size: 52px;
+  }
+
+  .hero{
+    height: 80vh;
+  }
+
+  .panel-1{
+    height: 50vh;
+  }
+
+}
+
+
+
+/* Da LG in poi */
+
+@media (min-width: 1100px) {
+
+  .custom-title {
+    font-size: 80px;
+  }
+
+  .separator {
+    width: 40%;
+  }
+
+  .hero{
+    height: 75vh;
+  }
+
+  iframe{
+    width: 55%;
+    height: 400px;
+  }
+
+}
+
+/* Da XL in poi */
+@media (min-width: 1400px) {
+  .hero{
+    height: 85vh;
+    background-position-y: -40px;
+  }
+}

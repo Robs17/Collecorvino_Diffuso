@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Collecorvino Diffuso</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+
+
+    <!-- Link per le Icon di Boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- Link per font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="bg-warning">
+    
+    <nav class="navbar bg-secondary navbar-custom sticky-top m-0 p-0">
+        <div class="container-fluid">
+            <div class="justify-content-start align-items-center">
+                <ul class="nav-links fs-4 d-flex gap-3 m-0 ps-4">
+                    <li class="nav-hover"><a href="#"><i class="bi bi-house-fill"></i></a></li>
+                </ul>
+            </div>
+            <div class="justify-content-end align-items-center pe-4">
+                <ul class="nav-links fs-6 d-flex gap-4 mb-0 p-0">
+                    <li class="nav-hover"><a href="#event">EVENTO</a></li>
+                    <li class="nav-hover"><a href="#info">INFO</a></li>
+                    <li class="nav-hover"><a href="#where">DOVE</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+    <main class="bg-warning">
+        <header class=" container text-white d-flex flex-column justify-content-start align-items-center pt-5">
+            <h1 class="text-center fadeUp custom-title text-black pt-2">COLLECORVINO DIFFUSO</h1>
+            <span class="separator fadeDown"></span>
+            <h2 class="display-5 mt-3 fs-3 fw-semibold subtitle text-center text-danger fadeUp">LA CULTURA ABITA OVUNQUE</h2>
+            <div class="hero fadeUp mb-5"></div>
+        </header>
+        <!-- Marquee event date -->
+        <div class="container-fluid w-100 p-0 pt-2 pb-5 mb-5 ">
+            <div class="banner-bg">
+                <div class="banner-line">
+                    <!-- 1 gruppo -->
+                    <div class="banner-group">
+                        <div class="banner-sponsor">
+                            <h3>Il festival si svolgerà il</h3>
+                        </div>
+                        <div class="banner-sponsor">
+                            <h3>17 18 19 Luglio</h3>
+                        </div>
+                        <div class="banner-sponsor">
+                            <h3>NON MANCARE !</h3>
+                        </div>
+                    </div>
+
+                    <!-- 2 gruppo -->
+                    <div class="banner-group" aria-hidden="true">
+                        <div class="banner-sponsor">
+                            <h3>Il festival si svolgerà il</h3>
+                        </div>
+                        <div class="banner-sponsor">
+                            <h3>17 18 19 Luglio</h3>
+                        </div>
+                        <div class="banner-sponsor">
+                            <h3>NON MANCARE !</h3>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Logo Carousel + Event's details -->
+        <span id="event"></span>
+        <section class="container-fluid fadeDown mb-5 pt-4">
+
+            <div class="row">
+                <div class="col-12 text-center mt-5 text-black w-100 p-0">
+                    <h3 class="fs-1 text-info pb-5">LE ORIGINI DEL NOSTRO LOGO</h3>
+                    <section class="panel-1">
+                        <div id="carouselExampleIndicators" class="carousel slide w-100" data-bs-ride="carousel" data-bs-interval="2500">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="/images/il-borgo-hd.png" class="img-detail" alt="..." loading="lazy">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/images/diffusione-hd.png" class="img-detail" alt="..." loading="lazy">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/images/artisti-hd.png" class="img-detail" alt="..." loading="lazy">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/images/piazzette-hd.png" class="img-detail" alt="..." loading="lazy">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/images/inVinoCultura-hd.png" class="img-detail" alt="..." loading="lazy">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </section>
+
+                    <!-- Squares & Artits -->
+                    <span id="info"></span>
+                    <section class="panel panel-2 d-flex flex-column">
+                        <p class="mb-0 mt-3 fs-3 fw-light">5 PIAZZE 5 TEMI</p>
+                        <p>mettere piazze e temi abbozzate senza dettagli</p>
+                    </section>
+
+                    <!-- Where to find us -->
+                    <span id="where"></span>
+                    <section class="panel panel-3 d-flex flex-column text-white">
+                        <p class="mb-0 mb-4 fs-3 fw-light">Ci trovi a</p>
+                        <div class=" w-100 d-flex flex-row-reverse justify-content-center fs-1 mb-4" loading="lazy">
+                            <p class="img-test-12">O</p>
+                            <p class="img-test-11">N</p>
+                            <p class="img-test-10">I</p>
+                            <p class="img-test-9">V</p>
+                            <p class="img-test-8">R</p>
+                            <p class="img-test-7">O</p>
+                            <p class="img-test-6">C</p>
+                            <p class="img-test-5">E</p>
+                            <p class="img-test-4">L</p>
+                            <p class="img-test-3">L</p>
+                            <p class="img-test-2">O</p>
+                            <p class="img-test-1">C</p>
+                        </div>
+
+                        <a href="https://maps.app.goo.gl/AX3rouy2JtPNQ3VRA" target="_blank" class="btn btn-md bg-light shadow-lg mb-4">Premi per le indicazioni</a>
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.5680662387913!2d14.013010476606514!3d42.45927902882667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1331b0ae583fefad%3A0x3be445a6bc6b4778!2sCollecorvino%20PE!5e3!3m2!1sit!2sit!4v1779708769652!5m2!1sit!2sit"
+                            width="80%" height="200px" style="border:0;"
+                            allowfullscreen="true" loading="eager" referrerpolicy="no-referrer-when-downgrade"
+                            class="rounded-4 shadow-lg">
+                        </iframe>
+                        <p>Google Maps</p>
+                        
+
+                    </section>
+
+                    <!-- Drone video + slogan -->
+                    <section class="panel panel-4 d-flex flex-column text-white">
+                        <p class=" fw-light">Non raccontarlo. <span class="text-custom">Vivilo.</span></p>
+
+                    </section>
+                </div>
+            </div>
+
+            <!-- Sponsor zone -->
+            <div class="row text-center mt-5 bg-white">
+                <h2 class="mt-3 fs-2">Festival sponsorizzato da</h2>
+                <div class="container-fluid ">
+                    <div class="banner-bg bg-white">
+                        <div class="banner-line-img">
+                            <!-- 1 gruppo -->
+                            <div class="banner-sponsor">
+                                <img src="https://picsum.photos/id/237/500/200" alt="">
+                            </div>
+                            <div class="banner-sponsor">
+                                <img src="https://picsum.photos/id/231/500/200" alt="">
+                            </div>
+                            <div class="banner-sponsor">
+                                <img src="https://picsum.photos/id/232/500/200" alt="">
+                            </div>
+                            <div class="banner-sponsor">
+                                <img src="https://picsum.photos/id/233/500/200" alt="">
+                            </div>
+                            <!-- 2 gruppo -->
+                            <div class="banner-sponsor">
+                                <img src="https://picsum.photos/id/237/500/200" alt="">
+                            </div>
+                            <div class="banner-sponsor">
+                                <img src="https://picsum.photos/id/231/500/200" alt="">
+                            </div>
+                            <div class="banner-sponsor">
+                                <img src="https://picsum.photos/id/232/500/200" alt="">
+                            </div>
+                            <div class="banner-sponsor">
+                                <img src="https://picsum.photos/id/233/500/200" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container-fluid p-0 bg-secondary overflow-hidden">
+        <div class="row px-3">
+            <div class="col-6 p-3 d-flex flex-column justify-content-center align-items-start">
+                <h3 class="fw-light fs-5">Copyright © 2026</h3>
+                <h5 class="fw-light text-custom2">Contattaci alla nostra mail : <a class="fw-light text-custom2">collecorvinodiffuso@gmail.com</a></h5>
+            </div>
+            <div class="col-6 p-3 d-flex flex-column justify-content-center align-items-end">
+                <h3 class="fw-light fs-5">I nostri social</h3>
+                <div class="d-flex gap-4 justify-content-center px-3">
+                    <a href="https://www.facebook.com/share/17QRNgQxzM/?mibextid=wwXIfr" target="_blank"> <i class="bi bi-facebook fs-2 text-body-secondary"></i></a>
+                    <a href="https://www.instagram.com/collecorvinodiffuso?utm_source=qr" target="_blank"> <i class="bi bi-instagram fs-2 text-body-secondary"></i> </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
