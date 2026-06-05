@@ -242,7 +242,7 @@ a>i {
   font-weight: bolder;
   text-shadow: 4px 3px 1px black;
   width: 80px;
-  height: 80px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -257,7 +257,7 @@ a>i {
   font-weight: bolder;
   text-shadow: 4px 3px 1px black;
   width: 80px;
-  height: 80px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -272,7 +272,7 @@ a>i {
   font-weight: bolder;
   text-shadow: 4px 3px 1px black;
   width: 80px;
-  height: 80px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -287,7 +287,7 @@ a>i {
   font-weight: bolder;
   text-shadow: 4px 3px 1px black;
   width: 80px;
-  height: 80px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -302,7 +302,7 @@ a>i {
   font-weight: bolder;
   text-shadow: 4px 3px 1px black;
   width: 80px;
-  height: 80px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -317,7 +317,7 @@ a>i {
   font-weight: bolder;
   text-shadow: 4px 3px 1px black;
   width: 80px;
-  height: 80px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -332,7 +332,7 @@ a>i {
   font-weight: bolder;
   text-shadow: 4px 3px 1px black;
   width: 80px;
-  height: 80px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -347,7 +347,7 @@ a>i {
   font-weight: bolder;
   text-shadow: 4px 3px 1px black;
   width: 80px;
-  height: 80px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -362,7 +362,7 @@ a>i {
   font-weight: bolder;
   text-shadow: 4px 3px 1px black;
   width: 80px;
-  height: 80px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -377,7 +377,7 @@ a>i {
   font-weight: bolder;
   text-shadow: 4px 3px 1px black;
   width: 80px;
-  height: 80px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -392,7 +392,7 @@ a>i {
   font-weight: bolder;
   text-shadow: 4px 3px 1px black;
   width: 80px;
-  height: 80px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -407,7 +407,7 @@ a>i {
   font-weight: bolder;
   text-shadow: 4px 3px 1px black;
   width: 80px;
-  height: 80px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -522,6 +522,13 @@ a>i {
     object-fit: contain;
     height: 300px;
     width: 25%;
+  }
+
+  .img-test-1, .img-test-2, .img-test-3,
+  .img-test-4, .img-test-5, .img-test-6,
+  .img-test-7, .img-test-8, .img-test-9,
+  .img-test-10, .img-test-11, .img-test-12{
+    height: 80px;
   }
 
 }
