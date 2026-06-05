@@ -588,6 +588,17 @@ a>i {
     height: 400px;
   }
 
+  .carousel-item {
+  height: 550px;
+  object-fit: contain;
+}
+
+  .img-detail {
+    object-fit: contain;
+    height: 450px;
+    width: 30%;
+  }
+
 }
 
 /* Da XL in poi */
