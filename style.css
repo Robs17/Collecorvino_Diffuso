@@ -32,6 +32,7 @@ a>i {
   --info-color: #dc6510;
   --danger-color: #541360;
   --warning-color: #fbf4f4;
+  --success-color: #bc0148;
 }
 
 .bg-primary {
@@ -141,7 +142,7 @@ a>i {
 }
 .banner-group {
   display: flex;
-  gap: 80px;
+  gap: 10px;
   min-width: 100vw;
   padding-right: 20px; 
 }
@@ -150,6 +151,7 @@ a>i {
   display: inline-block;
   flex-shrink: 0;
   color: aliceblue;
+  letter-spacing: 1px;
 }
 
 .banner-sponsor h4 {
@@ -198,7 +200,7 @@ a>i {
 .panel-1 {
   height: 60vh;
   flex-direction: column;
-  background-color: #fbf4f4;
+  background-color: #faf2f3;
   display: flex;
   justify-content: start;
   align-items: center;
@@ -215,7 +217,7 @@ a>i {
 }
 
 .panel-4 {
-  background-color: #5e2e66;
+  background-color: #72012d;
   z-index: 4;
   font-size: 40px;
 }
@@ -412,6 +414,10 @@ a>i {
   justify-content: center;
   align-items: center;
   border-radius: 150px;
+}
+
+.artist{
+  width: 100%;
 }
 
 /* Animations */
