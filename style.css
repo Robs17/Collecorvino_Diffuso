@@ -200,7 +200,7 @@ a>i {
 .panel-1 {
   height: 60vh;
   flex-direction: column;
-  background-color: #faf2f3;
+  background-color: #fbf4f4;
   display: flex;
   justify-content: start;
   align-items: center;
@@ -498,6 +498,7 @@ a>i {
     width: 100%;
     background-size: cover;
     height: 55vh;
+    image-rendering: optimizeSpeed;
   }
 
   .customImg {
