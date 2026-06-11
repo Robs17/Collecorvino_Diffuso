@@ -448,6 +448,11 @@ a>i {
   color: white;
 }
 
+.artist-card{
+  width: 400px;
+  height: 300px;
+}
+
 .artist-1{
   background-image:linear-gradient(to top,#000000 0%,transparent 70%), url(/images/artisti/Andrea-Pomponio/EEC6ECC1-E061-4139-88EF-F8674CD02AEF.JPG);
   background-size: cover;
@@ -457,8 +462,6 @@ a>i {
   flex-direction: column;
   justify-content: end;
   align-items: center;
-  width: 400px;
-  height: 300px;
 }
 
 .artist-2{
@@ -469,9 +472,18 @@ a>i {
   display: flex;
   flex-direction: column;
   justify-content: end;
-  align-items: center;
-  width: 400px;
-  height: 300px;
+  align-items: center; 
+}
+
+.artist-3{
+  background-image:linear-gradient(to top,#000000 0%,transparent 70%), url(/images/artisti/Dallas/Dallas-pic.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center; 
 }
 
 footer a i {
@@ -641,11 +653,7 @@ footer a:hover i {
     height: 50vh;
   }
 
-  .artist-1{
-    width: 600px;
-    height: 400px;
-  }
-  .artist-2{
+  .artist-card{
     width: 600px;
     height: 400px;
   }
@@ -686,14 +694,11 @@ footer a:hover i {
     width: 30%;
   }
 
-  .artist-1{
+  .artist-card{
     width: 800px;
     height: 400px;
   }
-  .artist-2{
-    width: 800px;
-    height: 400px;
-  }
+  
 
 }
 
@@ -704,11 +709,7 @@ footer a:hover i {
     background-position-y: -40px;
   }
 
-  .artist-1{
-    width: 1000px;
-    height: 500px;
-  }
-  .artist-2{
+  .artist-card{
     width: 1000px;
     height: 500px;
   }
