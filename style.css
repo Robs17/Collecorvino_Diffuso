@@ -436,10 +436,6 @@ a>i {
   color: #541360;
 }
 
-.artist{
-  width: 100%;
-}
-
 .artist-name{
   font-size: 30px;
   font-weight:600;
@@ -461,7 +457,7 @@ a>i {
   flex-direction: column;
   justify-content: end;
   align-items: center;
-  width: 100%;
+  width: 400px;
   height: 300px;
 }
 
@@ -474,8 +470,17 @@ a>i {
   flex-direction: column;
   justify-content: end;
   align-items: center;
-  width: 100%;
+  width: 400px;
   height: 300px;
+}
+
+footer a i {
+    color: rgb(97, 97, 97);
+    transition: color 0.2s ease;
+}
+
+footer a:hover i {
+    color: #000;
 }
 
 
@@ -637,11 +642,11 @@ a>i {
   }
 
   .artist-1{
-    width: 70%;
+    width: 600px;
     height: 400px;
   }
   .artist-2{
-    width: 70%;
+    width: 600px;
     height: 400px;
   }
 
@@ -682,11 +687,11 @@ a>i {
   }
 
   .artist-1{
-    width: 60%;
+    width: 800px;
     height: 400px;
   }
   .artist-2{
-    width: 60%;
+    width: 800px;
     height: 400px;
   }
 
@@ -700,11 +705,11 @@ a>i {
   }
 
   .artist-1{
-    width: 50%;
+    width: 1000px;
     height: 500px;
   }
   .artist-2{
-    width: 50%;
+    width: 1000px;
     height: 500px;
   }
 }
