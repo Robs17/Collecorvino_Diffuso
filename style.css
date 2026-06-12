@@ -486,6 +486,16 @@ a>i {
   justify-content: end;
   align-items: center; 
 }
+.artist-4{
+  background-image:linear-gradient(to top,#000000 0%,transparent 70%), url(/images/artisti/Elena-Cialente/Cialente-Boscocorto.jpeg);
+  background-size: cover;
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center; 
+}
 
 footer a i {
     color: rgb(97, 97, 97);
@@ -602,6 +612,10 @@ footer a:hover i {
     font-size: 30px;
   }
 
+  .text-custom2 {
+    font-size: 18px;
+  }
+
   .img-detail {
     object-fit: contain;
     height: 300px;
@@ -697,7 +711,7 @@ footer a:hover i {
 
   .artist-card{
     width: 800px;
-    height: 400px;
+    height: 500px;
   }
   
 
@@ -711,7 +725,7 @@ footer a:hover i {
   }
 
   .artist-card{
-    width: 1000px;
+    width: 900px;
     height: 500px;
   }
 }
