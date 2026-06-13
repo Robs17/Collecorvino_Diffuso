@@ -13,6 +13,7 @@ li>a {
   text-decoration: none;
   color: black;
   cursor: pointer;
+  font-size: 11px;
 }
 
 .custom-title {
@@ -224,8 +225,6 @@ a>i {
   justify-content: center;
   align-items: center;
   top: 50px;
-  position: sticky;
-  scroll-margin-top: 0;
 }
 
 .panel-1 {
@@ -238,24 +237,28 @@ a>i {
 }
 
 .panel-2 {
+  height: 100vh;
   background-color: #e98b47;
-  z-index: 2;
 }
 
 .panel-3 {
   background-color: #74548b;
-  z-index: 3;
+  
 }
 
 .panel-4 {
   background-color: #72012d;
-  z-index: 4;
   font-size: 40px;
 }
 
 .festival-text{
   width: 100%;
-  font-size: 14px;
+  font-size: 10px;
+  text-align: justify;
+}
+
+.bio{
+  font-size: 15px;
 }
 
 .btn{
@@ -597,6 +600,11 @@ a>i {
   height: 22vh;
 }
 
+.spazio{
+  width: 100%;
+  height: 120px;
+}
+
 .bi-youtube{
   color: red;
 }
@@ -678,7 +686,7 @@ footer a:hover i {
   }
 
   .text-custom2 {
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .subtitle {
@@ -700,13 +708,27 @@ footer a:hover i {
   .img-detail {
     object-fit: contain;
     width: 220px;
-    
     height: 300px;
   }
 
-  .panel-1{
-    height: 50vh;
+  .artist-card{
+    width: 350px;
+    height: 250px;
   }
+
+  .artist-name{
+    font-size: 22px;
+    font-weight:600;
+    color: white;
+    margin-bottom: 0;
+  }
+
+  .artist-description{
+      font-weight: 200;
+      font-size: 12px;
+      color: white;
+  }
+
 }
 
 /* Da SM in poi */
@@ -720,12 +742,6 @@ footer a:hover i {
     font-size: 18px;
   }
 
-  .img-detail {
-    object-fit: contain;
-    height: 300px;
-    width: 25%;
-  }
-
   .img-test-1, .img-test-2, .img-test-3,
   .img-test-4, .img-test-5, .img-test-6,
   .img-test-7, .img-test-8, .img-test-9,
@@ -736,6 +752,8 @@ footer a:hover i {
   .festival-text{
     width: 100%;
     font-size: 16px;
+
+
   }
 
 }
@@ -754,17 +772,17 @@ footer a:hover i {
 
   .img-detail {
     object-fit: contain;
-    height: 400px;
-    width: 25%;
-  }
-
-  .panel-1{
-    height: 50vh;
+    height: 300px;
+    width: 40%;
   }
 }
 
 /* Da MD a LG */
 @media (min-width: 768px) and (max-width: 1100px) {
+
+  li>a{
+    font-size: 13px;
+  }
   .custom-title{
     font-size: 52px;
   }
@@ -773,9 +791,13 @@ footer a:hover i {
     height: 80vh;
   }
 
-  .panel-1{
-    height: 50vh;
+  .img-detail {
+    object-fit: contain;
+    height: 300px;
+    width: 40%;
   }
+
+  
 
   .artist-card{
     width: 600px;
@@ -790,6 +812,9 @@ footer a:hover i {
 
 @media (min-width: 1100px) {
 
+  li>a{
+    font-size: 15px;
+  }
   .custom-title {
     font-size: 80px;
   }
@@ -802,14 +827,14 @@ footer a:hover i {
     height: 75vh;
   }
 
+  .item-1{
+  height: 450px;
+  object-fit: contain;
+}
+
   iframe{
     width: 55%;
     height: 400px;
-  }
-
-  .carousel-item {
-  height: 550px;
-  object-fit: contain;
   }
 
   .cantines{
@@ -818,8 +843,17 @@ footer a:hover i {
 
   .img-detail {
     object-fit: contain;
+    height: 400px;
+    width: 50%;
+  }
+  .img-detail-3 {
+    object-fit: contain;
     height: 450px;
     width: 30%;
+  }
+  
+  .cantine-carousel{
+    height: 20px;
   }
 
   .artist-card{
@@ -829,8 +863,12 @@ footer a:hover i {
 
   .festival-text{
     width: 80%;
-    font-size: 18px;
+    font-size: 15px;
   }
+
+  .bio{
+  font-size: 17px;
+}
 
   .artist-9{
     background-position: top ;
@@ -853,6 +891,6 @@ footer a:hover i {
 
   .festival-text{
     width: 70%;
-    font-size: 22px;
+    font-size: 18px;
   }
 }
