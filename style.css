@@ -195,12 +195,26 @@ a>i {
     object-fit: contain;
   }
 
+.img-detail-3 {
+    height: 450px;
+    width: 50%;
+    object-fit: contain;
+  }
+
 
 .carousel-indicators [data-bs-target] {
   background-color:#74548b;
 }
 .carousel-indicators .active {
   background-color: #5e2e66;
+}
+
+.cantine-indicators{
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.cantine-indicators [data-bs-target]{
+  background-color: #72012d;
 }
 
 .panel {
@@ -237,6 +251,11 @@ a>i {
   background-color: #72012d;
   z-index: 4;
   font-size: 40px;
+}
+
+.festival-text{
+  width: 100%;
+  font-size: 14px;
 }
 
 .btn{
@@ -496,6 +515,91 @@ a>i {
   justify-content: end;
   align-items: center; 
 }
+.artist-5{
+  background-image:linear-gradient(to top,#000000 0%,transparent 70%), url(/images/artisti/Ester-Crocetta/ester-crocetta-pic.png);
+  background-size: cover;
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center; 
+}
+.artist-6{
+  background-image:linear-gradient(to top,#000000 0%,transparent 70%), url(/images/artisti/Giovanni-Lofino/Lufino-Di-Pietro-DAndreamatteo.webp);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  image-rendering: optimizeQuality;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center; 
+}
+.artist-7{
+  background-image:linear-gradient(to top,#000000 0%,transparent 80%), url(/images/artisti/Helen/image1.jpeg);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  image-rendering: optimizeQuality;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center; 
+}
+.artist-8{
+  background-image:linear-gradient(to top,#000000 0%,transparent 80%), url(/images/artisti/Irene-Di-Michele/ecf18e0a-0c48-404a-afff-59d005c76356_Original.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  image-rendering: optimizeQuality;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center; 
+}
+.artist-9{
+  background-image:linear-gradient(to top,#000000 0%,transparent 60%), url(/images/artisti/Lorenzo-Dipas/imgprofilo\ rossomattone\ copia.jpg);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  image-rendering: optimizeQuality;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center; 
+}
+.artist-10{
+  background-image:linear-gradient(to top,#000000 0%,transparent 80%), url(/images/artisti/Patrizia-Benedetti/Patrizia-pic.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  image-rendering: optimizeQuality;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center; 
+}
+.artist-11{
+  background-image:linear-gradient(to top,#000000 0%,transparent 80%), url(/images/artisti/Tonio-Vinci/tonio-pic.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  image-rendering: optimizeQuality;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center; 
+}
+
+.empty-space{
+  width: 100%;
+  height: 22vh;
+}
+
+.bi-youtube{
+  color: red;
+}
 
 footer a i {
     color: rgb(97, 97, 97);
@@ -629,6 +733,11 @@ footer a:hover i {
     height: 80px;
   }
 
+  .festival-text{
+    width: 100%;
+    font-size: 16px;
+  }
+
 }
 
 /* Da SM a MD */
@@ -701,7 +810,11 @@ footer a:hover i {
   .carousel-item {
   height: 550px;
   object-fit: contain;
-}
+  }
+
+  .cantines{
+    width: 50%;
+  }
 
   .img-detail {
     object-fit: contain;
@@ -712,6 +825,15 @@ footer a:hover i {
   .artist-card{
     width: 800px;
     height: 500px;
+  }
+
+  .festival-text{
+    width: 80%;
+    font-size: 18px;
+  }
+
+  .artist-9{
+    background-position: top ;
   }
   
 
@@ -727,5 +849,10 @@ footer a:hover i {
   .artist-card{
     width: 900px;
     height: 500px;
+  }
+
+  .festival-text{
+    width: 70%;
+    font-size: 22px;
   }
 }

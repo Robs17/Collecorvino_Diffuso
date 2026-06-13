@@ -124,16 +124,38 @@
 
                     <!-- Festival's infos -->
                     <span id="info"></span>
-                    <section class="panel panel-2 d-flex flex-column">
-                        <h3 class="mb-0 mt-3 fs-3 fw-light">IL FESTIVAL</h3>
-                        <p></p>
+                    <section class="panel panel-2 d-flex flex-column justify-content-start align-items-center text-white">
+                        <h2 class="mb-0 mt-4 mb-4 fs-1 fw-semibold ">IL FESTIVAL</h2>
+                        <p class="p-3 festival-text"><span class="fw-bold">Collecorvino Diffuso – In Vino Cultura</span> è un festival culturale pensato per trasformare il centro storico di Collecorvino
+                        in un percorso vivo, aperto e condiviso. 
+                        
+                        Non nasce come un evento concentrato in un solo luogo, ma come un’esperienza da attraversare. Piazze, vicoli, scorci,
+                        edifici, botteghe e spazi quotidiani diventano parte di un racconto più ampio, in cui il borgo non è soltanto lo sfondo,
+                        ma il vero protagonista. <br> <br>
+                        
+                        Per tre giornate, il <span class="fw-bold">17, 18 e 19 luglio 2026</span>, Collecorvino accoglierà arte, musica, artigianato, vino, food, parole,
+                        incontri e momenti di condivisione. Ogni linguaggio contribuirà a costruire un’unica narrazione: quella di un paese che
+                        si lascia guardare con occhi nuovi e che torna a essere luogo di relazione, scoperta e bellezza. <br>
+                        
+                        Il festival nasce dall’idea che la cultura possa abitare ovunque. Non solo nei musei, nei teatri o negli spazi
+                        ufficiali, ma anche in una piazza, in un vicolo, in una voce, in un’opera, in un gesto artigiano, in un calice di vino,
+                        in una conversazione inattesa. <br> <br>
+                        
+                        Il vino, richiamato nel nome “In Vino Cultura”, non è soltanto degustazione, ma racconto del territorio: convivialità,
+                        memoria, identità e incontro.
+                        
+                        Collecorvino Diffuso vuole essere un’esperienza autentica, giovane e profondamente legata ai luoghi. Un festival che
+                        invita a camminare, fermarsi, ascoltare, osservare, assaggiare e incontrare. Un modo nuovo per vivere il borgo e
+                        riconoscere, dentro i suoi spazi, una cultura già presente, pronta solo a essere accolta e raccontata.
+                        
+                        La cultura abita ovunque</p>
                         
                     </section>
 
                     <!-- Where to find us -->
                     <span id="where"></span>
                     <section class="panel panel-3 d-flex flex-column text-white">
-                        <p class="mb-0 mb-4 fs-3 fw-light">CI TROVI A</p>
+                        <p class="mb-0 mb-4 fs-3 fw-semibold">CI TROVI A</p>
                         <div class=" w-100 d-flex flex-row-reverse justify-content-center fs-1 mb-4" loading="lazy">
                             <p class="img-test-12">O</p>
                             <p class="img-test-11">N</p>
@@ -161,17 +183,56 @@
 
                     </section>
 
-                    <!-- Drone video + slogan -->
+                    <!-- Drone video + cantines -->
                     <section class="panel panel-4 d-flex flex-column text-white">
-                        <p class=" fw-light">LE CANTINE</p>
+                        <p class=" fw-semibold">LE CANTINE</p>
+                        <div class="container cantines">
+                            <div id="carouselCantines" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                                <div class="carousel-indicators cantine-indicators">
+                                    <button type="button" data-bs-target="#carouselCantines" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselCantines" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselCantines" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#carouselCantines" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                    <button type="button" data-bs-target="#carouselCantines" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                </div>
+                                <div class="carousel-inner bg-white rounded-4">
+                                    <div class="carousel-item active bg-white">
+                                        <img src="/images/Cantine/Logo-Dark.png" class="img-detail-3" alt="...">
+                                    </div>
+                                    <div class="carousel-item bg-white">
+                                        <img src="/images/Cantine/De-Melis.png" class="img-detail-3" alt="...">
+                                    </div>
+                                    <div class="carousel-item bg-white">
+                                        <img src="/images/Cantine/lampato-1024x1024.jpg" class="img-detail-3" alt="...">
+                                    </div>
+                                    <div class="carousel-item bg-white">
+                                        <img src="/images/Cantine/tenuta-del-priore.png" class="img-detail-3" alt="...">
+                                    </div>
+                                    <div class="carousel-item bg-white">
+                                        <img src="/images/Cantine/tenuta-tre-gemme.png" class="img-detail-3" alt="...">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselCantines"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon bg-danger rounded-4" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselCantines"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon bg-danger rounded-4" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+
+                        </div>
                     </section>
 
                 </div>
             </div>
+            <span id="artists"></span>
         </section>
         
             <!-- Artists -->
-            <span id="artists"></span>
             <h2 class="fs-1 fw-semibold text-center purple">GLI ARTISTI</h2>
             <section class="container-fluid pb-5">
                 <div class="d-flex flex-column gap-5 mt-3">
@@ -179,7 +240,7 @@
                     <div class="row d-flex g-2 gap-2">
                         <div class="col-12">
                             <div class="d-flex justify-content-center g-2 gap-2">
-                                <a href="/andrea-pomponio.html" target="_blank"> 
+                                <a href="/andrea-pomponio.html"> 
                                     <div class="artist-1 artist-card">
                                         <p class="artist-name">Pm Drew</p>
                                         <p class="artist-description">Artista Poliedrico</p>
@@ -191,40 +252,131 @@
                     <!-- Artist 2 -->
                     <div class="row d-flex g-2 gap-2">
                         <div class="col-12">
-                                <div class="d-flex justify-content-center g-2 gap-2">
-                                    <a href="/antonio-paternò.html" target="_blank">
-                                        <div class="artist-2 artist-card">
-                                            <p class="artist-name fs-2">Antonio Gualtieri Paternò</p>
-                                            <p class="artist-description">Artista</p>
-                                        </div>
-                                    </a>
-                                </div>
+                            <div class="d-flex justify-content-center g-2 gap-2">
+                                <a href="/antonio-paternò.html">
+                                    <div class="artist-2 artist-card">
+                                        <p class="artist-name fs-2">Antonio Gualtieri Paternò</p>
+                                        <p class="artist-description">Artista</p>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <!-- Artist 3 -->
                     <div class="row d-flex g-2 gap-2">
                         <div class="col-12">
-                                <div class="d-flex justify-content-center g-2 gap-2">
-                                    <a href="/dallas.html" target="_blank">
-                                        <div class="artist-3 artist-card">
-                                            <p class="artist-name fs-2">Dallas</p>
-                                            <p class="artist-description">Cantautore Country-Folk-Blues</p>
-                                        </div>
-                                    </a>
-                                </div>
+                            <div class="d-flex justify-content-center g-2 gap-2">
+                                <a href="/dallas.html">
+                                    <div class="artist-3 artist-card">
+                                        <p class="artist-name fs-2">Dallas</p>
+                                        <p class="artist-description">Cantautore Country-Folk-Blues</p>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <!-- Artist 4 -->
                     <div class="row d-flex g-2 gap-2">
                         <div class="col-12">
-                                <div class="d-flex justify-content-center g-2 gap-2">
-                                    <a href="/elena-cialente.html" target="_blank">
-                                        <div class="artist-4 artist-card">
-                                            <p class="artist-name fs-2">Elena Maria Cialente</p>
-                                            <p class="artist-description">Scrittrice</p>
-                                        </div>
-                                    </a>
-                                </div>
+                            <div class="d-flex justify-content-center g-2 gap-2">
+                                <a href="/elena-cialente.html">
+                                    <div class="artist-4 artist-card">
+                                        <p class="artist-name fs-2">Elena Maria Cialente</p>
+                                        <p class="artist-description">Scrittrice</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Artist 5 -->
+                    <div class="row d-flex g-2 gap-2">
+                        <div class="col-12">
+                            <div class="d-flex justify-content-center g-2 gap-2">
+                                <a href="/ester-crocetta.html">
+                                    <div class="artist-5 artist-card">
+                                        <p class="artist-name fs-2">Ester Crocetta</p>
+                                        <p class="artist-description">Visual Artist</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Artist 6 -->
+                    <div class="row d-flex g-2 gap-2">
+                        <div class="col-12">
+                            <div class="d-flex justify-content-center g-2 gap-2">
+                                <a href="/giovanni-lufino.html">
+                                    <div class="artist-6 artist-card">
+                                        <p class="artist-name fs-2">Giovanni Lufino</p>
+                                        <p class="artist-description">Mostra Fotografica</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Artist 7 -->
+                    <div class="row d-flex g-2 gap-2">
+                        <div class="col-12">
+                            <div class="d-flex justify-content-center g-2 gap-2">
+                                <a href="/helen.html">
+                                    <div class="artist-7 artist-card">
+                                        <p class="artist-name fs-2">Helen</p>
+                                        <p class="artist-description">Artista contemporanea</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Artist 8 -->
+                    <div class="row d-flex g-2 gap-2">
+                        <div class="col-12">
+                            <div class="d-flex justify-content-center g-2 gap-2">
+                                <a href="/irene-di-michele.html">
+                                    <div class="artist-8 artist-card">
+                                        <p class="artist-name fs-2">Irene Di Michele</p>
+                                        <p class="artist-description">Poeta della macchina da scrivere</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Artist 9 -->
+                    <div class="row d-flex g-2 gap-2">
+                        <div class="col-12">
+                            <div class="d-flex justify-content-center g-2 gap-2">
+                                <a href="/lorenzo-dipas.html">
+                                    <div class="artist-9 artist-card">
+                                        <p class="artist-name fs-2">Lorenzo Dipas e i Debosciati</p>
+                                        <p class="artist-description">Cantautore con band</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Artist 10 -->
+                    <div class="row d-flex g-2 gap-2">
+                        <div class="col-12">
+                            <div class="d-flex justify-content-center g-2 gap-2">
+                                <a href="/pepezia.html">
+                                    <div class="artist-10 artist-card">
+                                        <p class="artist-name fs-2">Pepezia</p>
+                                        <p class="artist-description">Pittrice d'arte figurativa</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Artist 11 -->
+                    <div class="row d-flex g-2 gap-2">
+                        <div class="col-12">
+                            <div class="d-flex justify-content-center g-2 gap-2">
+                                <a href="/tonio-vinci.html">
+                                    <div class="artist-11 artist-card">
+                                        <p class="artist-name fs-2">Antonio Vinci</p>
+                                        <p class="artist-description">Fumettista</p>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
                     </div>
 
@@ -243,26 +395,26 @@
                                 <img src="/images/Loghi-Sponsor/logo-mia_websm.png" width="100" height="50" alt="">
                             </div>
                             <div class="banner-sponsor">
-                                <img src="/images/Loghi-Sponsor/WhatsApp Image 2026-06-09 at 22.46.25.jpeg" width="250" height="100" alt="">
+                                <img src="/images/Loghi-Sponsor/WhatsApp Image 2026-06-09 at 22.46.25.jpeg" width="200" height="100" alt="">
                             </div>
                             <div class="banner-sponsor">
-                                <img src="/images/Loghi-Sponsor/WhatsApp Image 2026-06-09 at 22.51.01.jpeg" width="250" height="100" alt="">
+                                <img src="/images/Loghi-Sponsor/WhatsApp Image 2026-06-09 at 22.51.01.jpeg" width="200" height="100" alt="">
                             </div>
                             <div class="banner-sponsor">
-                                <img src="/images/Loghi-Sponsor/Piemme-Elektra.png" width="250" height="100"  alt="">
+                                <img src="/images/Loghi-Sponsor/Piemme-Elektra.png" width="200" height="50"  alt="">
                             </div>
                             <!-- 2 gruppo -->
                             <div class="banner-sponsor">
                                 <img src="/images/Loghi-Sponsor/logo-mia_websm.png" width="100" height="50" alt="">
                             </div>
                             <div class="banner-sponsor">
-                                <img src="/images/Loghi-Sponsor/WhatsApp Image 2026-06-09 at 22.46.25.jpeg" width="250" height="100" alt="">
+                                <img src="/images/Loghi-Sponsor/WhatsApp Image 2026-06-09 at 22.46.25.jpeg" width="200" height="100" alt="">
                             </div>
                             <div class="banner-sponsor">
-                                <img src="/images/Loghi-Sponsor/WhatsApp Image 2026-06-09 at 22.51.01.jpeg" width="250" height="100" alt="">
+                                <img src="/images/Loghi-Sponsor/WhatsApp Image 2026-06-09 at 22.51.01.jpeg" width="200" height="100" alt="">
                             </div>
                             <div class="banner-sponsor">
-                                <img src="/images/Loghi-Sponsor/Piemme-Elektra.png"  width="250" height="100" alt="">
+                                <img src="/images/Loghi-Sponsor/Piemme-Elektra.png"  width="200" height="100" alt="">
                             </div>
                         </div>
                     </div>
