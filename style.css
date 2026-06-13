@@ -119,6 +119,7 @@ a>i {
   text-shadow: 1px 1px 1px rgb(128, 128, 128);
 }
 
+
 .banner-bg {
   width: 100%;
   overflow: hidden;
@@ -172,6 +173,10 @@ a>i {
   to {
     transform: translateX(-50%);
   }
+}
+
+.custom-text{
+  font-size: 20px;
 }
 
 .item-1{
@@ -676,6 +681,10 @@ footer a:hover i {
     font-size: 38px;
   }
 
+  .custom-text{
+    font-size: 23px;
+  }
+
   .navbar-custom {
     gap: 1;
     font-size: small;
@@ -735,6 +744,10 @@ footer a:hover i {
 @media (min-width: 575px) {
 
   .navbar-custom {
+    font-size: 30px;
+  }
+
+  .custom-text{
     font-size: 30px;
   }
 
@@ -817,6 +830,10 @@ footer a:hover i {
   }
   .custom-title {
     font-size: 80px;
+  }
+
+  .custom-text{
+    font-size: 35px;
   }
 
   .separator {
