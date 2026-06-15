@@ -52,6 +52,10 @@ a>i {
   background-color: var(--warning-color) !important;
 }
 
+.bg-info{
+  background-color: var(--info-color) !important;
+}
+
 .text-danger {
   color: var(--danger-color) !important;
 }
@@ -82,7 +86,6 @@ a>i {
   /* background-position-y: -60px; */
   height: 100dvh;
   overflow: hidden;
-
 }
 
 .nav-links {
@@ -176,7 +179,7 @@ a>i {
 }
 
 .custom-text{
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .item-1{
@@ -233,7 +236,7 @@ a>i {
 }
 
 .panel-1 {
-  height: 60vh;
+  height: 70vh;
   flex-direction: column;
   background-color: #fbf4f4;
   display: flex;
@@ -242,23 +245,26 @@ a>i {
 }
 
 .panel-2 {
-  height: 100vh;
+  height: auto;
   background-color: #e98b47;
 }
 
 .panel-3 {
   background-color: #74548b;
-  
 }
 
 .panel-4 {
+  height: 100vh;
   background-color: #72012d;
-  font-size: 40px;
+}
+
+.panel-5 {
+  height: 100vh;
+  background-color: #74548b;
 }
 
 .festival-text{
-  width: 100%;
-  font-size: 10px;
+  font-size: 14px;
   text-align: justify;
 }
 
@@ -280,185 +286,7 @@ a>i {
   color: #541360;
   text-decoration: underline;
 }
-/* City name + bg-images */
-.img-test-1{
-  background-image: url(/images/scritta/circolo.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-weight: bolder;
-  text-shadow: 4px 3px 1px black;
-  width: 80px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 100px;
-  margin-right:-10px;
-}
 
-.img-test-2{
-  background-image: url(/images/scritta/colle-disegno.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-weight: bolder;
-  text-shadow: 4px 3px 1px black;
-  width: 80px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 150px;
-  margin-right:-10px;
-}
-
-.img-test-3{
-  background-image: url(/images/scritta/castello.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-weight: bolder;
-  text-shadow: 4px 3px 1px black;
-  width: 80px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 150px;
-  margin-right:-10px;
-}
-
-.img-test-4{
-  background-image: url(/images/scritta/portacastello.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-weight: bolder;
-  text-shadow: 4px 3px 1px black;
-  width: 80px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 150px;
-  margin-right:-10px;
-}
-
-.img-test-5{
-  background-image: url(/images/scritta/piazza-piccola.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-weight: bolder;
-  text-shadow: 4px 3px 1px black;
-  width: 80px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 150px;
-  margin-right:-10px;
-}
-
-.img-test-6{
-  background-image: url(/images/scritta/municipio.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-weight: bolder;
-  text-shadow: 4px 3px 1px black;
-  width: 80px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 150px;
-  margin-right:-10px;
-}
-
-.img-test-7{
-  background-image: url(/images/scritta/La_Bella_Addormentata_Gran_Sasso_d_Italia_02.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-weight: bolder;
-  text-shadow: 4px 3px 1px black;
-  width: 80px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 150px;
-  margin-right:-10px;
-}
-
-.img-test-8{
-  background-image: url(/images/scritta/fabio.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-weight: bolder;
-  text-shadow: 4px 3px 1px black;
-  width: 80px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 150px;
-  margin-right:-10px;
-}
-
-.img-test-9{
-  background-image: url(/images/scritta/scale-castello.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-weight: bolder;
-  text-shadow: 4px 3px 1px black;
-  width: 80px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 150px;
-  margin-right:-10px;
-}
-
-.img-test-10{
-  background-image: url(/images/scritta/montagna.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-weight: bolder;
-  text-shadow: 4px 3px 1px black;
-  width: 80px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 150px;
-  margin-right:-10px;
-}
-
-.img-test-11{
-  background-image: url(/images/scritta/scale-castello.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-weight: bolder;
-  text-shadow: 4px 3px 1px black;
-  width: 80px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 150px;
-  margin-right:-10px;
-}
-
-.img-test-12{
-  background-image: url(/images/scritta/vista-di-collecorvino.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-weight: bolder;
-  text-shadow: 4px 3px 1px black;
-  width: 80px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 150px;
-}
 
 .purple{
   color: #541360;
@@ -479,6 +307,10 @@ a>i {
 .artist-card{
   width: 400px;
   height: 300px;
+  transition: transform 0.3s ease;
+}
+.artist-card:hover{
+  transform: scale(1.2);
 }
 
 .artist-1{
@@ -599,6 +431,46 @@ a>i {
   justify-content: end;
   align-items: center; 
 }
+.artist-12{
+  background-image:linear-gradient(to top,#000000 0%,transparent 80%), url(/images/artisti/Beatrice-Baldacci/bea-pic.JPG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  image-rendering: optimizeQuality;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center; 
+}
+.artist-13{
+  background-image:linear-gradient(to top,#000000 0%,transparent 80%), url(/images/artisti/Mezzalibbra/IMG-20230923-WA01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  image-rendering: optimizeQuality;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center; 
+}
+.artist-14{
+  background-image:linear-gradient(to top,#000000 0%,transparent 90%), url(/images/artisti/Valentino-Orciuolo/valentino-pic.JPG);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  image-rendering: optimizeQuality;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center; 
+}
+
+.food-img{
+  width: 90%;
+  height: 200px;
+  border-radius: 20%;
+  padding: 10px;
+}
 
 .empty-space{
   width: 100%;
@@ -676,7 +548,9 @@ footer a:hover i {
 
 /* Da 0 a SM */
 @media (max-width: 575px) {
-
+  h6{
+    font-size: 12px;
+  }
   .custom-title {
     font-size: 38px;
   }
@@ -714,6 +588,10 @@ footer a:hover i {
     height: 250px;
   }
 
+  .panel-5{
+    height: 125vh;
+  }
+
   .img-detail {
     object-fit: contain;
     width: 220px;
@@ -738,6 +616,10 @@ footer a:hover i {
       color: white;
   }
 
+  .food-img{
+    height: 150px;
+  }
+
 }
 
 /* Da SM in poi */
@@ -752,7 +634,7 @@ footer a:hover i {
   }
 
   .text-custom2 {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .img-test-1, .img-test-2, .img-test-3,
@@ -765,8 +647,10 @@ footer a:hover i {
   .festival-text{
     width: 100%;
     font-size: 16px;
+  }
 
-
+  .food-img{
+    height: 250px;
   }
 
 }
@@ -804,13 +688,21 @@ footer a:hover i {
     height: 80vh;
   }
 
+  .festival-text{
+    font-size: 18px;
+  }
+
+  .panel-2{
+    height: 80vh;
+    padding: 20px;
+  }
+
   .img-detail {
     object-fit: contain;
     height: 300px;
-    width: 40%;
+    width: 30%;
   }
 
-  
 
   .artist-card{
     width: 600px;
@@ -836,6 +728,10 @@ footer a:hover i {
     font-size: 35px;
   }
 
+  .text-custom2 {
+    font-size: 16px;
+  }
+
   .separator {
     width: 40%;
   }
@@ -844,10 +740,14 @@ footer a:hover i {
     height: 75vh;
   }
 
+  .panel-2{
+    height: 100vh;
+  }
+
   .item-1{
   height: 450px;
   object-fit: contain;
-}
+  }
 
   iframe{
     width: 55%;
@@ -868,19 +768,15 @@ footer a:hover i {
     height: 450px;
     width: 30%;
   }
-  
-  .cantine-carousel{
-    height: 20px;
-  }
 
   .artist-card{
-    width: 800px;
-    height: 500px;
+    width: 600px;
+    height: 400px;
   }
 
   .festival-text{
     width: 80%;
-    font-size: 15px;
+    font-size: 20px;
   }
 
   .bio{
@@ -889,6 +785,10 @@ footer a:hover i {
 
   .artist-9{
     background-position: top ;
+  }
+
+  .food-img{
+    width: 80%;
   }
   
 
@@ -902,12 +802,12 @@ footer a:hover i {
   }
 
   .artist-card{
-    width: 900px;
+    width: 700px;
     height: 500px;
   }
 
   .festival-text{
     width: 70%;
-    font-size: 18px;
+    font-size: 23px;
   }
 }
