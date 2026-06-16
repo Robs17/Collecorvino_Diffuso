@@ -4,6 +4,10 @@
   font-family: "Montserrat", serif;
 }
 
+.justified{
+  text-align: justify;
+}
+
 a{
   text-decoration: none;
   cursor: pointer;
@@ -585,7 +589,7 @@ footer a:hover i {
   }
 
   .hero{
-    height: 450px;
+    height: 400px;
   }
   .custom-title {
     font-size: 38px;
@@ -838,8 +842,8 @@ footer a:hover i {
 @media (min-width: 1400px) {
 
   .hero{
-    width: 50%;
-    height: 700px;
+    width: 40%;
+    height: 650px;
   }
 
   .artist-card{
