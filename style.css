@@ -573,6 +573,10 @@ footer a:hover i {
     font-size: 32px;
   }
 
+  .text-custom3{
+    font-size: 14px;
+  }
+
   .text-custom2 {
     font-size: 13px;
   }
@@ -623,6 +627,7 @@ footer a:hover i {
 
   .food-img{
     height: 150px;
+    width: 100%;
   }
 
 }
