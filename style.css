@@ -68,6 +68,11 @@ a>i {
   color: var(--info-color) !important;
 }
 
+.btn-success {
+  border-radius: 0%;
+  background-color: #1ed760 !important;
+}
+
 
 .navbar-custom {
   width: 100%;
@@ -310,7 +315,7 @@ a>i {
   transition: transform 0.3s ease;
 }
 .artist-card:hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .artist-1{
@@ -454,7 +459,7 @@ a>i {
   align-items: center; 
 }
 .artist-14{
-  background-image:linear-gradient(to top,#000000 0%,transparent 90%), url(/images/artisti/Valentino-Orciuolo/valentino-pic.JPG);
+  background-image:linear-gradient(to top,#000000 0%,transparent 90%), url(/images/artisti/Valentino-Orciuolo/DSC1590_1.png);
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -738,6 +743,10 @@ footer a:hover i {
 
   .hero{
     height: 75vh;
+  }
+
+  .panel-1{
+    padding-top: 50px;
   }
 
   .panel-2{
