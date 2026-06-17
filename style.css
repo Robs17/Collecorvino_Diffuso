@@ -402,7 +402,7 @@ a>i {
   align-items: center; 
 }
 .artist-6{
-  background-image:linear-gradient(to top,#000000 0%,transparent 70%), url(/images/artisti/Giovanni-Lofino/Lufino-Di-Pietro-DAndreamatteo.webp);
+  background-image:linear-gradient(to top,#000000 0%,transparent 70%), url(/images/artisti/Giovanni-Lufino/Lufino-upscaled.png);
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -413,7 +413,7 @@ a>i {
   align-items: center; 
 }
 .artist-7{
-  background-image:linear-gradient(to top,#000000 0%,transparent 80%), url(/images/artisti/Helen/image1.jpeg);
+  background-image:linear-gradient(to top,#000000 0%,transparent 80%), url(/images/artisti/Helen/image1_upscaled.png);
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -490,9 +490,20 @@ a>i {
   align-items: center; 
 }
 .artist-14{
-  background-image:linear-gradient(to top,#000000 0%,transparent 90%), url(/images/artisti/Valentino-Orciuolo/DSC1590_1.png);
+  background-image:linear-gradient(to top,#000000 0%,transparent 100%), url(/images/artisti/Valentino-Orciuolo/valentino-pic.png);
   background-size: cover;
   background-position: bottom;
+  background-repeat: no-repeat;
+  image-rendering: optimizeQuality;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center; 
+}
+.artist-15{
+  background-image:linear-gradient(to top,#000000 0%,transparent 70%), url(/images/artisti/Antonio-Di-Loreto/CoverSaporeAbruzzo.jpg);
+  background-size: cover;
+  background-position: center bottom;
   background-repeat: no-repeat;
   image-rendering: optimizeQuality;
   display: flex;
@@ -589,6 +600,7 @@ footer a:hover i {
   }
 
   .hero{
+    width: auto;
     height: 400px;
   }
   .custom-title {
@@ -727,6 +739,12 @@ footer a:hover i {
 
   .festival-text{
     font-size: 18px;
+    width: 90%;
+  }
+
+  .hero{
+    height: 700px;
+    width: auto;
   }
 
   .panel-2{
@@ -759,7 +777,7 @@ footer a:hover i {
   }
 
   .hero{
-    width: 60%;
+    width: auto;
     height: 800px;
   }
 
@@ -779,7 +797,6 @@ footer a:hover i {
     width: 40%;
   }
 
-
   .panel-1{
     padding-top: 50px;
   }
@@ -794,7 +811,6 @@ footer a:hover i {
   }
 
   iframe{
-    width: 70%;
     height: 400px;
   }
 
@@ -842,8 +858,8 @@ footer a:hover i {
 @media (min-width: 1400px) {
 
   .hero{
-    width: 40%;
-    height: 650px;
+    width: auto;
+    height: 700px;
   }
 
   .artist-card{
@@ -852,7 +868,7 @@ footer a:hover i {
   }
 
   .festival-text{
-    width: 70%;
+    width: 80%;
     font-size: 23px;
   }
 }
