@@ -511,6 +511,17 @@ a>i {
   justify-content: end;
   align-items: center; 
 }
+.artist-16{
+  background-image:linear-gradient(to top,#000000 0%,transparent 50%), url(/images/artisti/Benedetta-Tranquilli/benedetta-pic.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  image-rendering: optimizeQuality;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center; 
+}
 
 .food-img{
   width: 90%;
@@ -778,7 +789,7 @@ footer a:hover i {
 
   .hero{
     width: auto;
-    height:500px;
+    height:450px;
   }
 
   .custom-title {
@@ -795,6 +806,10 @@ footer a:hover i {
 
   .separator {
     width: 40%;
+  }
+
+  .panel-1{
+
   }
 
   .panel-2{
