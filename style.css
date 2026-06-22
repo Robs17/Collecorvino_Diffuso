@@ -533,6 +533,17 @@ a>i {
   justify-content: end;
   align-items: center; 
 }
+.artist-18{
+  background-image:linear-gradient(to top,#000000 0%,transparent 70%), url(/images/artisti/Nicola-Calvi/nicola-pic.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  image-rendering: optimizeQuality;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center; 
+}
 
 .food-img{
   width: 90%;
@@ -765,7 +776,7 @@ footer a:hover i {
   }
 
   .hero{
-    height: 700px;
+    height: 550px;
     width: auto;
   }
 
@@ -800,7 +811,7 @@ footer a:hover i {
 
   .hero{
     width: auto;
-    height:450px;
+    height:430px;
   }
 
   .custom-title {
@@ -877,7 +888,7 @@ footer a:hover i {
 
   .hero{
     width: auto;
-    height: 550px;
+    height: 500px;
   }
 
   .artist-card{
