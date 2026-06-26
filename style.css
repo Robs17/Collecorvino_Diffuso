@@ -267,11 +267,11 @@ a>i {
 }
 
 .panel-1 {
-  height: 70vh;
+  height: 65vh;
   flex-direction: column;
   background-color: #fbf4f4;
   display: flex;
-  justify-content: start;
+  justify-content: center start;
   align-items: center;
 }
 
@@ -544,6 +544,17 @@ a>i {
   justify-content: end;
   align-items: center; 
 }
+.artist-19{
+  background-image:linear-gradient(to top,#000000 0%,transparent 70%), url(/images/artisti/Fabrizia-Di-Fabio/fabrizia-pic.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  image-rendering: optimizeQuality;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center; 
+}
 
 .food-img{
   width: 90%;
@@ -670,6 +681,10 @@ footer a:hover i {
     height: 250px;
   }
 
+  .panel-1{
+    height: 60vh;
+  }
+
   .panel-5{
     height: 125vh;
   }
@@ -724,13 +739,6 @@ footer a:hover i {
     font-size: 15px;
   }
 
-  .img-test-1, .img-test-2, .img-test-3,
-  .img-test-4, .img-test-5, .img-test-6,
-  .img-test-7, .img-test-8, .img-test-9,
-  .img-test-10, .img-test-11, .img-test-12{
-    height: 80px;
-  }
-
   .festival-text{
     width: 100%;
     font-size: 16px;
@@ -753,10 +761,15 @@ footer a:hover i {
     height: auto;
   }
 
+  .item-1{
+    height: 400px;
+  }
+
+
   .img-detail {
     object-fit: contain;
-    height: 90vh;
-    width: 40%;
+    height: 35vh;
+    width: 45%;
   }
 }
 
