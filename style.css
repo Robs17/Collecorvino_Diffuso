@@ -843,6 +843,10 @@ footer a:hover i {
     width: 40%;
   }
 
+  .panel-1{
+    height: 70vh;
+  }
+
   .panel-2{
     height: 100vh;
   }
