@@ -121,7 +121,7 @@ a>i {
 
 .hero {
   width: 100%;
-  height: 400px;
+  height: 350px;
   overflow: hidden;
 }
 
@@ -940,7 +940,7 @@ footer a:hover i {
 
   .hero{
     width: auto;
-    height: 450px;
+    height: 425px;
   }
 
   .artist-card{
