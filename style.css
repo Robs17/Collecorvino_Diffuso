@@ -311,6 +311,7 @@ a>i {
 
 .bio{
   font-size: 15px;
+  text-align: justify;
 }
 
 .button-where{
@@ -579,6 +580,17 @@ a>i {
 }
 .artist-19{
   background-image:linear-gradient(to top,#000000 0%,transparent 70%), url(/images/artisti/Fabrizia-Di-Fabio/fabrizia-pic.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  image-rendering: optimizeQuality;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center; 
+}
+.artist-20{
+  background-image:linear-gradient(to top,#000000 0%,transparent 70%), url(/images/artisti/Evita-Giuliano/evita-giu-pic.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
