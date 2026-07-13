@@ -600,6 +600,28 @@ a>i {
   justify-content: end;
   align-items: center; 
 }
+.artist-21{
+  background-image:linear-gradient(to top,#000000 0%,transparent 70%), url(/images/artisti/Nicole-Faccenda/nicole-pic.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  image-rendering: optimizeQuality;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center; 
+}
+.artist-22{
+  background-image:linear-gradient(to top,#000000 0%,transparent 70%), url(/images/artisti/Valentina-Chiassolini/valetina-pic.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  image-rendering: optimizeQuality;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center; 
+}
 
 .food-img{
   width: 90%;
