@@ -183,7 +183,7 @@ a>i {
   width:max-content;
   will-change: transform;
   white-space: nowrap;
-  animation: scrollBanner 15s linear infinite;
+  animation: scrollBanner 20s linear infinite;
   background-color: #ffffff;
   gap: 20px;
 }
