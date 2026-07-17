@@ -393,7 +393,6 @@ a>i {
   justify-content: end;
   align-items: center;
 }
-
 .artist-2{
   background-image:linear-gradient(to top,#000000 0%,transparent 70%), url(/images/artisti/Antonio-Paternò/IMG_7455.jpeg);
   background-size: cover;
@@ -404,7 +403,6 @@ a>i {
   justify-content: end;
   align-items: center; 
 }
-
 .artist-3{
   background-image:linear-gradient(to top,#000000 0%,transparent 70%), url(/images/artisti/Dallas/Dallas-pic.jpg);
   background-size: cover;
@@ -420,6 +418,7 @@ a>i {
   background-size: cover;
   background-position: center 30%;
   background-repeat: no-repeat;
+  image-rendering: optimizeSpeed;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -440,7 +439,6 @@ a>i {
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
-  image-rendering: optimizeQuality;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -451,7 +449,6 @@ a>i {
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
-  image-rendering: optimizeQuality;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -462,7 +459,6 @@ a>i {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  image-rendering: optimizeQuality;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -473,7 +469,6 @@ a>i {
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
-  image-rendering: optimizeQuality;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -484,7 +479,6 @@ a>i {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  image-rendering: optimizeQuality;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -495,7 +489,6 @@ a>i {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  image-rendering: optimizeQuality;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -506,7 +499,6 @@ a>i {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  image-rendering: optimizeQuality;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -517,7 +509,6 @@ a>i {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  image-rendering: optimizeQuality;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -528,7 +519,6 @@ a>i {
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
-  image-rendering: optimizeQuality;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -539,7 +529,7 @@ a>i {
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
-  image-rendering: optimizeQuality;
+  image-rendering: optimizeSpeed;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -550,7 +540,7 @@ a>i {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  image-rendering: optimizeQuality;
+  image-rendering: optimizeSpeed;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -561,7 +551,6 @@ a>i {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  image-rendering: optimizeQuality;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -572,7 +561,6 @@ a>i {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  image-rendering: optimizeQuality;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -583,7 +571,7 @@ a>i {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  image-rendering: optimizeQuality;
+  image-rendering: optimizeSpeed;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -594,7 +582,6 @@ a>i {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  image-rendering: optimizeQuality;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -605,7 +592,6 @@ a>i {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  image-rendering: optimizeQuality;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -616,11 +602,70 @@ a>i {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  image-rendering: optimizeQuality;
   display: flex;
   flex-direction: column;
   justify-content: end;
-  align-items: center; 
+  align-items: center 
+}
+.artist-23{
+  background-image:linear-gradient(to top,#000000 0%,transparent 70%), url(/images/artisti/Ester-Aureliano/ester-pic.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center 
+}
+.artist-24{
+  background-image:linear-gradient(to top,#000000 0%,transparent 80%), url(/images/artisti/Gianluca-Calista/Gianluca_Calista-pic.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center 
+}
+.artist-25{
+  background-image:linear-gradient(to top,#000000 0%,transparent 80%), url(/images/artisti/Riccardo-Alessandro/Ric-Ale-pic_upscaled.png);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center 
+}
+.artist-26{
+  background-image:linear-gradient(to top,#000000 0%,transparent 100%), url(/images/artisti/Piccola-libreria-origami/Logo-Piccola-Libreria-Origami.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center 
+}
+.artist-27{
+  background-image:linear-gradient(to top,#000000 0%,transparent 100%), url(/images/artisti/Lucy-Calamita/lucy-calamita-pic_upscaled.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center 
+}
+.artist-28{
+  background-image:linear-gradient(to top,#000000 0%,transparent 100%), url(/images/artisti/Luciana-Di-Simone/Luciana-pic.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center 
 }
 
 .food-img{
